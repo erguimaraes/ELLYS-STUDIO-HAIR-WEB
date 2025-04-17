@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Choose Service - Beauty Saloon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Botão de Voltar -->
+  <div class="back-button">
+    <button onclick="window.location.href='index.html'">← Voltar</button>
+  </div>
+
+  <div class="services-page">
+    <header class="header">
+      <h2>Search by location</h2>
+      <input type="text" placeholder="Search..." class="search-input" />
+    </header>
+
+    <div class="tabs">
+      <button class="tab active">Services</button>
+      <button class="tab" onclick="window.location.href='professionals.html'">Professionals</button>
+      <button class="tab">Saloons</button>
+    </div>
+
+    <section class="service-grid">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png" alt="Facial" />
+        <p>Facial</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3304/3304566.png" alt="Make Up" />
+        <p>Make Up</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2738/2738892.png" alt="Shampoo" />
+        <p>Shampoo</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="Nails" />
+        <p>Nails</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1511/1511795.png" alt="Hair Cut" />
+        <p>Hair Cut</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2138/2138294.png" alt="Hair Color" />
+        <p>Hair Color</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

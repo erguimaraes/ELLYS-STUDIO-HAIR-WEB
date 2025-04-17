@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Choose Professional - Beauty Saloon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Botão de Voltar -->
+  <div class="back-button">
+    <button onclick="window.location.href='services.html'">← Voltar</button>
+  </div>
+
+  <div class="professionals-page">
+    <header class="header">
+      <h2>Select date and hour</h2>
+      <div class="date-hour">
+        <input type="date" value="2025-04-16" />
+        <input type="time" value="08:00" />
+      </div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab" onclick="window.location.href='services.html'">Services</button>
+      <button class="tab active">Professionals</button>
+      <button class="tab">Saloons</button>
+    </div>
+
+    <section class="professional-list">
+      <div class="professional-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jenny Lupin" />
+        <div class="info">
+          <h3>Alexandre</h3>
+          <p>Hair Stylist</p>
+          <p>★★★★★</p>
+        </div>
+      </div>
+
+      <div class="professional-card">
+        <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Dann Scott" />
+        <div class="info">
+          <h3>Guilherme</h3>
+          <p>Hair Stylist</p>
+          <p>★★★★☆</p>
+        </div>
+      </div>
+
+      <div class="professional-card">
+        <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Charles Paul" />
+        <div class="info">
+          <h3>Erick</h3>
+          <p>Hair Stylist</p>
+          <p>★★★☆☆</p>
+        </div>
+      </div>
+
+      <div class="professional-card">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lola Diaz" />
+        <div class="info">
+          <h3>Elisangela</h3>
+          <p>Hair Stylist</p>
+          <p>★★★★★</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="book-btn">
+      <button>BOOK NOW</button>
+    </div>
+  </div>
+</body>
+</html>

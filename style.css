@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #f06292, #ba68c8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+  
+  .logo img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .logo h1 {
+    margin: 10px 0 0;
+    font-size: 24px;
+  }
+  
+  .logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #fce4ec;
+  }
+  
+  .login-form input {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #26c6da;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-form a {
+    color: #fff9c4;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  .services-page {
+    padding: 20px;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background: #26c6da;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .service-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .service-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .service-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .professionals-page {
+    padding: 20px;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .selectors {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .selectors input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .professional-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .professional-card {
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    padding: 10px;
+    transition: background 0.3s;
+  }
+  
+  .professional-card:hover {
+    background: rgba(255,255,255,0.2);
+  }
+  
+  .professional-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .professional-card .info h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .professional-card .info p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+  
+  .stars {
+    color: #ffe082;
+  }
+  
+  .book-btn {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .book-btn button {
+    padding: 12px 30px;
+    background-color: #26c6da;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab:hover {
+    background-color: #c2185b;
+  }
+  
+  .tab.active {
+    background-color: #ad1457;
+  }
+  .back-button {
+    margin: 20px;
+  }
+  
+  .back-button button {
+    background-color: #fff;
+    color: #d81b60;
+    border: 2px solid #d81b60;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button button:hover {
+    background-color: #d81b60;
+    color: white;
+  }
+  .professionals-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .date-hour {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .date-hour input {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .professional-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .professional-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .professional-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .professional-card .info {
+    text-align: left;
+  }
+  
+  .book-btn {
+    margin-top: 30px;
+  }
+  
+  .book-btn button {
+    background-color: #d81b60;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .book-btn button:hover {
+    background-color: #b0164f;
+  }
+    
+      
